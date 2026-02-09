@@ -1,0 +1,104 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Corpo da página */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #530566, #8809a1);
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cabeçalho */
+header {
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Conteúdo principal */
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  background: white;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+
+  border: none;
+  border-radius: 8px;
+  background: #4facfe;
+  color: white;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00c6ff;
+}
+
+/* Mensagem */
+#mensagem {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+.erro {
+  color: red;
+  font-size: 14px;
+  height: 16px;
+}
+
+input.invalido {
+  border: 2px solid red;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
