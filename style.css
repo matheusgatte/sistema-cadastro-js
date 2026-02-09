@@ -78,9 +78,16 @@ button:hover {
 /* Mensagem */
 #mensagem {
   margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 8px;
+  border-radius: 6px;
   text-align: center;
   font-weight: bold;
+
+  display: none; /* escondido por padrão */
 }
+
+
 
 /* Rodapé */
 footer {
@@ -102,3 +109,35 @@ button:disabled {
   background: #ccc;
   cursor: not-allowed;
 }
+
+.item-contato {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 10px;
+  padding: 10px;
+
+  background: #f5f5f5;
+  border-radius: 6px;
+}
+
+.item-contato button {
+  margin: 0;
+  padding: 6px 10px;
+  font-size: 14px;
+  background: #ff4d4d;
+}
+
+.item-contato button:hover {
+  background: #e60000;
+}
+
+h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333;
+}
+
+
