@@ -23,17 +23,19 @@
 <form id="formulario">
 
   <label for="nome">Nome</label>
-  <input type="text" id="nome">
+  <input type="text" id="nome" required>
   <span class="erro" id="erro-nome"></span>
 
   <label for="email">Email</label>
-  <input type="email" id="email">
+  <input type="email" id="email" required>
   <span class="erro" id="erro-email"></span>
 
   <button type="submit" id="btn-enviar" disabled>Enviar</button>
 </form>
 
 <p id="mensagem"></p>
+<h3>Contatos cadastrados</h3>
+<div id="lista"></div>
 
 
 </section>
