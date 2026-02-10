@@ -1,15 +1,19 @@
-## 📌 Sistema de Cadastro
+# Sistema de Cadastro de Contatos
 
-Projeto desenvolvido em HTML, CSS e JavaScript puro, com foco em aprendizado
-de manipulação do DOM e lógica de programação.
+Projeto desenvolvido com HTML, CSS e JavaScript puro.
 
-### 🚀 Funcionalidades
-- Cadastro de usuários
-- Listagem na tela
-- Exclusão de registros
-- Dados salvos no localStorage
+## Funcionalidades
+- Cadastro de contatos com nome e email
+- Validação de campos
+- Bloqueio de emails duplicados
+- Persistência de dados com localStorage
+- Exclusão de contatos
+- Interface simples e responsiva
 
-### 🛠 Tecnologias
-- HTML
-- CSS
-- JavaScript
+## Tecnologias utilizadas
+- HTML5
+- CSS3
+- JavaScript (DOM, Events, localStorage)
+
+## Acesso ao projeto
+🔗 https://matheusgatte.github.io/sistema-cadastro-js/
